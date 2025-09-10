@@ -1,0 +1,108 @@
+# Data Analytics Internship - Task 6: SQLite + Python Sales Analysis
+# Basic requirements for database connectivity and visualization
+# Minimum Python version: 3.8+
+
+# Core Data Processing
+pandas>=1.5.0               # Data manipulation and SQL integration
+numpy>=1.21.0               # Numerical computing for calculations
+
+# Data Visualization
+matplotlib>=3.5.0           # Basic plotting and chart creation
+seaborn>=0.11.0            # Enhanced statistical visualizations (optional)
+
+# Database Connectivity
+# sqlite3                   # Built into Python - no installation needed!
+
+# Development and Testing
+jupyter>=1.0.0             # Notebook environment (optional)
+ipython>=7.0.0             # Enhanced Python shell (optional)
+
+# Utility Libraries
+python-dateutil>=2.8.0     # Date parsing and manipulation
+
+# Optional: Enhanced Database Tools
+# sqlalchemy>=1.4.0         # Database ORM for advanced usage (uncomment if needed)
+
+# Optional: Advanced Visualization
+# plotly>=5.10.0            # Interactive charts (uncomment if needed)
+
+# Data Export (Optional)
+openpyxl>=3.0.0            # Excel export functionality (optional)
+
+# Core Installation Command (Absolute Minimum):
+# No installation required! sqlite3 is built into Python
+
+# Recommended Installation Command:
+# pip install pandas matplotlib
+
+# Full Installation Command:
+# pip install -r requirements.txt
+
+# Alternative Minimal Installation:
+# pip install pandas matplotlib numpy python-dateutil
+
+# IMPORTANT NOTES:
+# ================
+# 
+# 1. SQLite3 Database Connectivity:
+#    - sqlite3 module is BUILT INTO Python
+#    - No additional installation required
+#    - Works on Windows, macOS, and Linux
+#    - No server setup needed - file-based database
+#
+# 2. Core Dependencies:
+#    - pandas: For SQL query results handling
+#    - matplotlib: For basic chart creation
+#    - numpy: For numerical calculations (comes with pandas)
+#
+# 3. Optional Dependencies:
+#    - jupyter: For interactive notebook development
+#    - seaborn: For enhanced statistical visualizations
+#    - plotly: For interactive charts
+#    - openpyxl: For Excel file operations
+#
+# 4. Database File:
+#    - SQLite database file (.db) is created by the script
+#    - Portable and self-contained
+#    - No external database server required
+#
+# 5. System Requirements:
+#    - Python 3.8 or higher
+#    - 100MB free disk space
+#    - 512MB RAM (minimum)
+#
+# 6. Development Environment:
+#    - Works with any Python IDE
+#    - Command line execution supported
+#    - Jupyter notebook compatible
+#
+# 7. Platform Compatibility:
+#    - Windows 10/11
+#    - macOS 10.14+
+#    - Linux (Ubuntu, CentOS, etc.)
+#
+# Quick Start Commands:
+# ====================
+# 
+# Check if Python has SQLite (it should!):
+# python -c "import sqlite3; print('SQLite version:', sqlite3.sqlite_version)"
+#
+# Install minimal requirements:
+# pip install pandas matplotlib
+#
+# Run the analysis:
+# python sales_analysis.py
+#
+# For Jupyter notebook:
+# pip install jupyter pandas matplotlib
+# jupyter notebook
+
+# Version Compatibility Notes:
+# ============================
+# - pandas 1.5.0+: Modern DataFrame functionality
+# - matplotlib 3.5.0+: Updated plotting interface
+# - numpy 1.21.0+: Latest numerical computing features
+# - python-dateutil 2.8.0+: Enhanced date handling
+#
+# These versions ensure compatibility and latest features
+# while maintaining stability across different systems.
